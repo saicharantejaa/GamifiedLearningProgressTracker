@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Gamified Learning Tracker Mock API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/health"
+      }
+    },
+    {
+      "name": "Daily Quote",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/quote"
+      }
+    }
+  ]
+}
